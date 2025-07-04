@@ -26,7 +26,7 @@ export default  async function Home() {
     <div className="my-15">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-xl font-bold">Snippets</h1>
-        <Link href="/snippets/new" className="border p-2 rounded">View NEW</Link>
+        <Link href="/snippets/new" className="border p-2 rounded">View New</Link>
       </div>
          <h1 className="flex flex-col gap-3">{renderedSnippets}</h1>
     </div>
